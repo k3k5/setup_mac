@@ -16,6 +16,9 @@ brew update
 brew install git
 git --version
 
+echo "Installiere brew cask"
+brew tap caskroom/cask
+
 echo "Installiere UNIX-Utilities"
 brew install htop
 brew install wget
@@ -73,10 +76,6 @@ node -v
 npm -v
 
 sleep 3s
-
-
-echo "Installiere brew cask"
-brew tap caskroom/cask
 
 
 echo "Installire ohmyzsh"
