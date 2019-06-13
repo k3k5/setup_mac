@@ -20,30 +20,7 @@ echo "Installiere brew cask"
 brew tap caskroom/cask
 
 echo "Installiere UNIX-Utilities"
-brew install htop
-brew install wget
-brew install nmap
-brew install links
-brew install lynx
-brew install geoip
-brew install irssi
-brew install bash-completion
-brew install watch
-brew install calc
-brew install git-flow
-brew install hh
-brew install jq
-brew install lftp
-brew install tree
-brew install unrar
-brew install vimpager
-brew install speedtest_cli
-brew install ack
-brew install mysql
-brew install macvim
-brew install gpg
-brew cask install java
-brew install dockutil
+brew install -r brew_list.txt
 
 echo "Removing all items from Dock"
 dockutil --remove all
