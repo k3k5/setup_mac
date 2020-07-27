@@ -113,7 +113,7 @@ source ~/.zsh/zsh-autosuggestions/zsh-autosuggestions.zsh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 alias zshconfig="mate ~/.zshrc"
 alias ohmyzsh="mate ~/.oh-my-zsh"
-alias ssh_staging="ssh -i /Users/sebastiankeck/.ssh/id_rsa eun-staging1.wavecloud.de -l sebastian"
+alias ssh_staging="ssh -i /Users/sebastiankeck/.ssh/id_rsa xxx.xxx.de -l sebastian"
 alias run_docker="docker-compose down;docker-compose build;docker-compose up"
 alias run_docker_d="docker-compose down;docker-compose build;docker-compose up -d"
 alias good_night="sudo shutdown -h now"
@@ -130,7 +130,7 @@ alias pscpu10="ps auxf | sort -nr -k 3 | head -10"
 alias cpuinfo="lscpu"
 alias gpumeminfo="grep -i --color memory /var/log/Xorg.0.log"
 alias cl="fc -e -|pbcopy"
-alias ssh_web_1="ssh -i /Users/sebastiankeck/.ssh/id_rsa eun-web1.wavecloud.de -l skeck"
+alias ssh_web_1="ssh -i /Users/sebastiankeck/.ssh/id_rsa xxx.xxx.de -l skeck"
 source ~/enhancd/init.sh
 # Hook for desk activation
 [ -n "$DESK_ENV" ] && source "$DESK_ENV" || true
